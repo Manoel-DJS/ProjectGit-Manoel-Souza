@@ -1,3 +1,5 @@
+Repositório no GitHub: ProjectGit-Manoel-Souza 
+
 Inicializando Repositório:
 Na pasta que deseja o repositório:
 'git init'
@@ -11,3 +13,8 @@ adicionando arquivos:
 Primeiro COMMIT / Fazendo os COMMITS
 
 (git commit -m "message user")
+
+Caso seja o primeiro commit:
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+

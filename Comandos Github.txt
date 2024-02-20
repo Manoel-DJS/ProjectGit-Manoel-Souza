@@ -1,0 +1,13 @@
+Inicializando Repositório:
+Na pasta que deseja o repositório:
+'git init'
+
+'git status'
+
+adicionando arquivos:
+(git add 'file name') para 1 arquivo por vez
+(git add .) para todos os arquivos que estão aparecendo no git status
+
+Primeiro COMMIT / Fazendo os COMMITS
+
+(git commit -m "message user")

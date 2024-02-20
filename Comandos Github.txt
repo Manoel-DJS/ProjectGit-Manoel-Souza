@@ -23,3 +23,12 @@ git reflog
 
 Comando para navegar entre as versões:
 git reset --hard (id da versão do reflog)
+
+Trabalhando com branch diferente:
+(git branch) verificar a branchs
+
+(git branch 'new name branch')criação de nova branch
+
+(git checkout 'name branch')Trocar para outra branch
+
+

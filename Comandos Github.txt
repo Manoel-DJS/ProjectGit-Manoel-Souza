@@ -18,3 +18,8 @@ Caso seja o primeiro commit:
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 
+Comando para verificar o histórico de atualizações:
+git reflog
+
+Comando para navegar entre as versões:
+git reset --hard (id da versão do reflog)

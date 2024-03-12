@@ -31,6 +31,9 @@ Trabalhando com branch diferente:
 
 (git checkout 'name branch')Trocar para outra branch
 
+(git checkout -b 'name branch') Clonar e ir para outra branch
+
+
 Unindo branchs / Possíveis Códigos:
 (git merge 'branch de onde você quer puxar as informações')
 
@@ -48,4 +51,12 @@ usando gitIgnore:
 2- na pasta do .gitignore colocar o nome da pasta ou arquivo que deseje ocultar do versionamento
 
 
+
+Passando Raiva com Github
+
+git config --global push.default current
+
+
+FAZER PUSH NA MARRA
+git push -f origin FixForBug
 

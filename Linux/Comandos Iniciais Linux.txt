@@ -1,0 +1,36 @@
+
+$ - Indica que está logado como usuário COMUM - USER == NORMAL USER 
+# - Indica que está logado como usuário de PRIVILÉGIOS - ROOT == ROOT USER
+~ - Indica que está trabalhando no diretório inicial. 
+
+whoami; uptime;  date; 
+
+Operador lógico: &&, ||, talvez !
+
+Nesse cenário, as vezes, alguns comandos aparecem com o "#", ou seja, para poder executar o usuário com privilégios - ROOT.
+
+COMMAND [option(s)] [arguments]
+
+(palavra == forma )
+
+- forma abreviada
+-- palavra completa
+
+| Forma     | Tipo de opção   | Exemplo                     |
+|------------|-------------------------|-----------------------------|
+| `-x`         | Curta (letra)         | `ls -a`                          |
+| `--xxxxx` | Longa (palavra)  | `grep --ignore-case` |
+| `--`          | Fim das opções | `rm -- -arquivo.txt`      |
+
+
+Trabalhando com linux remotamente:
+use ssh - Secure Shell --> Padrão linux: Bash
+
+Atalhos: 
+Ctrl + shift + T = Nova Guia
+Ctrl + L = Limpar Terminal
+Ctrl + D = Logout
+Ctrl + Setas > ou < = Pula palavra no terminal
+
+Comandos Terminal: 
+clear

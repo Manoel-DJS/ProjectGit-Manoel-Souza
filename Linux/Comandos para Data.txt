@@ -1,0 +1,5 @@
+Comandos para data:
+
+    date 	- da com hora
+date +%R - apenas hora
+date +%x 	- apenas data

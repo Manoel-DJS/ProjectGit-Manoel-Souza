@@ -5,7 +5,7 @@ $ - Indica que está logado como usuário COMUM - USER == NORMAL USER
 
 whoami; uptime;  date; 
 
-Operador lógico: &&, ||, talvez !
+Operador lógico: &&, ||
 
 Nesse cenário, as vezes, alguns comandos aparecem com o "#", ou seja, para poder executar o usuário com privilégios - ROOT.
 
@@ -31,6 +31,36 @@ Ctrl + shift + T = Nova Guia
 Ctrl + L = Limpar Terminal
 Ctrl + D = Logout
 Ctrl + Setas > ou < = Pula palavra no terminal
+Ctrl + R = Recuperar ou Procurar Comando ja digitado.
+[letras iniciais] + press 2x Tab = AutoComplete
 
 Comandos Terminal: 
 clear
+history
+
+
+File zcat - determinar tipo de arquivo
+wc zcat - numero de linhas, palavras e bytes
+
+pode-se usar comandos combinados.
+Tem um autocomplet apertando tab.
+Os comandos 'head' e 'tail' exibem o início e o fim de um arquivo, respectivamente. Por padrão, esses comandos exibem 10 linhas do arquivo, mas ambos têm a '-n' opção de especificar um número diferente de linhas.
+
+
+
+Change Password:
+[user ~]$ passwd
+Changing password for user user.
+Current password: old_password
+New password: new_password
+Retype new password: new_password
+passwd: all authentication tokens updated success.
+
+
+Para um arquivo passwd por exemplo.
+[user~]$ file /etc/passwd
+/etc/passwd: texto ASCII 
+[user~]$ file /bin/passwd
+/bin/passwd: setuid ELF executável LSB pie de 64 bits, x86-64, versão 1 (SYSV), vinculado dinamicamente, interpretador /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=a467cb9c8fa7306d41b96a820b0178f3a9c66055, para GNU/Linux 3.2.0, simplificado 
+[user ~]$ file /home
+/home: diretório
